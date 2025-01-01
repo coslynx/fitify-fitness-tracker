@@ -1,0 +1,9 @@
+{
+  "install_dependencies": "npm ci --loglevel=error || npm install --loglevel=error",
+  "run_dev": "npm run dev",
+  "build_prod": "npm run build",
+  "start_prod": "npm run start",
+   "lint": "npm run eslint -- --fix",
+  "format": "npm run prettier -- --write",
+  "test": "npm run test -- --coverage --coverageReporters=json-summary --outputFile=coverage/coverage-summary.json"
+}
